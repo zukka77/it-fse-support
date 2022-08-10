@@ -15,7 +15,10 @@ jobs:
     name: Build PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - name: Docker Layer Caching
+        uses: satackey/action-docker-layer-caching@v0.0.11
+        continue-on-error: true
       - uses: baileyjm02/markdown-to-pdf@v1.2.0
         with:
           input_path: ./
