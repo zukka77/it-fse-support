@@ -18,11 +18,11 @@ jobs:
       - uses: actions/checkout@v2
       - uses: baileyjm02/markdown-to-pdf@v1.2.0
         with:
-          input_dir: .
+          input_path: ./
           output_dir: pdfs
-          images_dir: img/
+          images_dir: ./img
           # for example <img src="./images/file-name.png">
-          image_import: ./images
+          image_import: ./img
           build_html: false
       - uses: actions/upload-artifact@v1
         with:
