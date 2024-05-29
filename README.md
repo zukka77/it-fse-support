@@ -10,12 +10,20 @@ A partire da Settembre sarà possibile per tutte le regioni testare le integrazi
 
 * [FAQ](https://github.com/ministero-salute/it-fse-support/tree/main/doc/faq)
 * [Documentazione integrazione GTW](https://github.com/ministero-salute/it-fse-support/tree/main/doc/integrazione-gateway)
+* [Documentazione per accreditamento](doc/accreditamento)
+  * [Gestione transitorio avvio](doc/transitorio)
+* [Descrizione modelli middleware regionali](doc/middleware-regionale)
 * [Tool per generazione Token JWT e iniezione CDA in PDF](https://github.com/ministero-salute/it-fse-gtw-tools)
+* [Container Gateway](https://github.com/ministero-salute/it-fse-gtw-test-container)
 * [Esempi di CDA validi](https://github.com/ministero-salute/it-fse-support/tree/main/doc/esempi/CDA)
-* [File (xsd e schematron) a supporto della validazione dei CDA](validazione/)
+* [File XSD a supporto della validazione dei CDA](https://github.com/ministero-salute/it-fse-catalogs/tree/main/schema)
+* [File Schematron a supporto della validazione dei CDA](https://github.com/ministero-salute/it-fse-catalogs/tree/main/schematron)
+* [Repository it-fse-catalogs con i dizionari e cataloghi caricati sul gateway](https://github.com/ministero-salute/it-fse-catalogs/)
+* [Specifiche API provisioning](doc/provisioning/)
 * [Richiesta certificati x509 per autenticazione e firma](#richiesta-certificati-x509)
 * [Apertura Segnalazioni](https://github.com/ministero-salute/it-fse-support/issues)
 * [Canale Slack #fse](https://developersitalia.slack.com/archives/C03RDT88FSM)
+* [Client Web Gateway (non ufficiale)](https://github.com/zukka77/gtwclient)
 
 # Gateway (GTW)
 
